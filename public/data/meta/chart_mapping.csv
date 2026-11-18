@@ -1,0 +1,10 @@
+module_id,page,story_step,recommended_visual,source_sheets,filter_scope,guardrail
+P1-01,Page 1,National NEET trend,Line chart,P1_National_Trend + P1_Provincial_NEET,Year 2021–2025; Indonesia vs selected province (default Jawa Tengah),Trend retains all five years; selected year is highlighted.
+P1-02,Page 1,Provincial NEET distribution,Choropleth map,P1_Provincial_NEET + Dim_Province,"Selected year; 34 provinces in 2021–2023, 38 in 2024–2025",Historical Papua is one pre-split unit; do not show new DOB provinces as null.
+P1-03,Page 1,Gender gap,Two-line chart,P1_Subgroup_Trend,Year 2021–2025; Gender,National rates; not province-specific.
+P1-04,Page 1,Urban vs rural gap,Two-line chart,P1_Subgroup_Trend,Year 2021–2025; Residence,National rates; not province-specific.
+P1-05,Page 1,NEET by education,Horizontal bar chart,P1_Subgroup_Trend,Selected year; Education,Use point estimates; do not claim statistical significance from ranking.
+P2-01,Page 2,NEET phenomenon,Line chart + Sankey,P2_Province_Year + P2_NEET_Decomposition,"Year, province",Sankey is an exclusive partition: employed + not employed in education/training + NEET; NEET split into unemployed/inactive.
+P2-02,Page 2,Who is excluded and why,Forest plot + 100% stacked bars,P2_Exclusion_Model + P2_NEET_Reasons,Year/province for reasons; forest plot fixed National 2025,AOR and reason distributions are synthetic placeholders; not causal or official estimates.
+P2-03,Page 2,Labour absorption,Treemap + quality metrics,P2_Labour_Sector + P2_Labour_Quality,"Year, province",All labour sector/quality data are synthetic prototype values.
+P2-04,Page 2,Policy response,Action cards + what-if simulator,P2_Policy_Actions + P2_Policy_Scenarios,"Year, province; coverage and success sliders","Scenario is arithmetic only, not a forecast or causal impact estimate."

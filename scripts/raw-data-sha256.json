@@ -1,0 +1,22 @@
+{
+  "public/data/meta/chart_mapping.csv": "7705c595dc3c92c241a18f5b5d5f0b9e5dc9b528bab58a0ab5444fad8712d15b",
+  "public/data/meta/data_dictionary.csv": "f4157c370fbf2892eacab9c8d5263c01163374c5fd6a946e2834c1a4deee891c",
+  "public/data/meta/dim_province.csv": "86573c0cb25a5efa1caf6f41a58b54c45ed54c222386b42bbb47afea3c723d84",
+  "public/data/meta/qc_report.csv": "c2ce7f452e8981edb910c501eea56a470eee7c46c9a17991f07ebadfdc7ad1dc",
+  "public/data/meta/source_lineage.csv": "9da30e268049273cc314b42804c994a64f058cd659097ae2eb0e1e57c523ac57",
+  "public/data/page1/p1_education_trend.csv": "fe4b197480f4cbd1c8cbb017c416a7ff0e1717a2906b4cac56d826944ed62ec5",
+  "public/data/page1/p1_gender_trend.csv": "655533c29d8b7340aa44187072e3cc9d8332c609bbd054f3f19ce823682348b2",
+  "public/data/page1/p1_kpi_by_year.csv": "748d6ee4d064d797b4d3765c6f556ae05c0e2e7288f38dea2d8d06cfb69006bf",
+  "public/data/page1/p1_national_trend.csv": "0dcdd8559c52838c5dbc76f447ec3607ca60d08663cf437582020b1f8828f6e2",
+  "public/data/page1/p1_provincial_neet.csv": "b16ac88bc46feaf782c8195615b51f7cbd4ea4f0fd8af3c907c737b776f774ff",
+  "public/data/page1/p1_residence_trend.csv": "419051e8e52593744d773e0dc39834cfcd3df5117541ef0234fbd7b714c6f611",
+  "public/data/page2/p2_exclusion_model.csv": "f77cf27d9e4d7ddc6ed6b2a94c286c1c4de135d5c2b0bbec746fe62f5e20d313",
+  "public/data/page2/p2_kpi_by_year.csv": "3f97466e16235de6f940198a91b126ef8629b99a1c4bd2b60525445bd2cda0ba",
+  "public/data/page2/p2_labour_quality.csv": "025cd36c279cf9e98ba2bfd4699104969924a282d5e968112f85c877627118e3",
+  "public/data/page2/p2_labour_sector.csv": "531d7b260f18b64e53acb32b2b48923d91b7916df1ef569d44fb3886b9f0e769",
+  "public/data/page2/p2_neet_decomposition.csv": "74139b27ceb24083b2d510605d71952c2e34e3d7994fb1fe46b89b5a93928371",
+  "public/data/page2/p2_neet_reasons.csv": "ec0b14531569158c3dd8093f81672ac7fc10d4c6b4dc09440557ab47c6939cb6",
+  "public/data/page2/p2_policy_actions.csv": "3bfe58bb74b40e5eafe6ac3e6893ae46a6f840995553742edb6bd947d60a4050",
+  "public/data/page2/p2_policy_scenarios.csv": "c1ea6348f900225c22b99977210ad4148f596e927b556fd8a777950ef724cb6c",
+  "public/data/page2/p2_province_year.csv": "7557c188439f9811f95f847bbe28b83f30b3e544feeae74ab8b06ab9c54cc2ef"
+}

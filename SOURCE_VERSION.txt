@@ -1,0 +1,7 @@
+Indonesia’s NEET Youth — latest portable source
+Source commit: 793905a77781f188a7665c5ef42f0c92b7fe56db
+Export date: 2026-11-18 Asia/Jakarta
+Target repository: https://github.com/juijey819/NEETDash
+Application, data and asset bytes match the deployed source commit.
+Export-specific README, push guide and metadata are updated for the existing GitHub repository.
+No Git history, dependency directory, generated build or hosting account binding is included.

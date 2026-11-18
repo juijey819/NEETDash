@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.sites-runtime/
+*.tsbuildinfo
+coverage/
+*.log
+.env
+.env.*
+!.env.example
+.vercel/
+.netlify/
+.DS_Store
+Thumbs.db
+
+# Hosting account metadata is excluded from this portable distribution.
+.openai/

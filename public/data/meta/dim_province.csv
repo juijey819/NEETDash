@@ -1,0 +1,40 @@
+province_key,province_name,bps_label,province_code,macro_region,geography_version,map_feature_key,is_papua_family,ui_selectable,data_note
+ID-11,Aceh,ACEH,11,Sumatra,current_38,11,False,True,Current 38-province administrative geography.
+ID-12,Sumatera Utara,SUMATERA UTARA,12,Sumatra,current_38,12,False,True,Current 38-province administrative geography.
+ID-13,Sumatera Barat,SUMATERA BARAT,13,Sumatra,current_38,13,False,True,Current 38-province administrative geography.
+ID-14,Riau,RIAU,14,Sumatra,current_38,14,False,True,Current 38-province administrative geography.
+ID-15,Jambi,JAMBI,15,Sumatra,current_38,15,False,True,Current 38-province administrative geography.
+ID-16,Sumatera Selatan,SUMATERA SELATAN,16,Sumatra,current_38,16,False,True,Current 38-province administrative geography.
+ID-17,Bengkulu,BENGKULU,17,Sumatra,current_38,17,False,True,Current 38-province administrative geography.
+ID-18,Lampung,LAMPUNG,18,Sumatra,current_38,18,False,True,Current 38-province administrative geography.
+ID-19,Kepulauan Bangka Belitung,KEP. BANGKA BELITUNG,19,Sumatra,current_38,19,False,True,Current 38-province administrative geography.
+ID-21,Kepulauan Riau,KEP. RIAU,21,Sumatra,current_38,21,False,True,Current 38-province administrative geography.
+ID-31,DKI Jakarta,DKI JAKARTA,31,Jawa,current_38,31,False,True,Current 38-province administrative geography.
+ID-32,Jawa Barat,JAWA BARAT,32,Jawa,current_38,32,False,True,Current 38-province administrative geography.
+ID-33,Jawa Tengah,JAWA TENGAH,33,Jawa,current_38,33,False,True,Current 38-province administrative geography.
+ID-34,DI Yogyakarta,DI YOGYAKARTA,34,Jawa,current_38,34,False,True,Current 38-province administrative geography.
+ID-35,Jawa Timur,JAWA TIMUR,35,Jawa,current_38,35,False,True,Current 38-province administrative geography.
+ID-36,Banten,BANTEN,36,Jawa,current_38,36,False,True,Current 38-province administrative geography.
+ID-51,Bali,BALI,51,Bali-Nusa Tenggara,current_38,51,False,True,Current 38-province administrative geography.
+ID-52,Nusa Tenggara Barat,NUSA TENGGARA BARAT,52,Bali-Nusa Tenggara,current_38,52,False,True,Current 38-province administrative geography.
+ID-53,Nusa Tenggara Timur,NUSA TENGGARA TIMUR,53,Bali-Nusa Tenggara,current_38,53,False,True,Current 38-province administrative geography.
+ID-61,Kalimantan Barat,KALIMANTAN BARAT,61,Kalimantan,current_38,61,False,True,Current 38-province administrative geography.
+ID-62,Kalimantan Tengah,KALIMANTAN TENGAH,62,Kalimantan,current_38,62,False,True,Current 38-province administrative geography.
+ID-63,Kalimantan Selatan,KALIMANTAN SELATAN,63,Kalimantan,current_38,63,False,True,Current 38-province administrative geography.
+ID-64,Kalimantan Timur,KALIMANTAN TIMUR,64,Kalimantan,current_38,64,False,True,Current 38-province administrative geography.
+ID-65,Kalimantan Utara,KALIMANTAN UTARA,65,Kalimantan,current_38,65,False,True,Current 38-province administrative geography.
+ID-71,Sulawesi Utara,SULAWESI UTARA,71,Sulawesi,current_38,71,False,True,Current 38-province administrative geography.
+ID-72,Sulawesi Tengah,SULAWESI TENGAH,72,Sulawesi,current_38,72,False,True,Current 38-province administrative geography.
+ID-73,Sulawesi Selatan,SULAWESI SELATAN,73,Sulawesi,current_38,73,False,True,Current 38-province administrative geography.
+ID-74,Sulawesi Tenggara,SULAWESI TENGGARA,74,Sulawesi,current_38,74,False,True,Current 38-province administrative geography.
+ID-75,Gorontalo,GORONTALO,75,Sulawesi,current_38,75,False,True,Current 38-province administrative geography.
+ID-76,Sulawesi Barat,SULAWESI BARAT,76,Sulawesi,current_38,76,False,True,Current 38-province administrative geography.
+ID-81,Maluku,MALUKU,81,Maluku,current_38,81,False,True,Current 38-province administrative geography.
+ID-82,Maluku Utara,MALUKU UTARA,82,Maluku,current_38,82,False,True,Current 38-province administrative geography.
+ID-92,Papua Barat,PAPUA BARAT,92,Papua,current_38,92,True,True,Current 38-province administrative geography.
+ID-96,Papua Barat Daya,PAPUA BARAT DAYA,96,Papua,current_38,96,True,True,Current 38-province administrative geography.
+ID-91,Papua,PAPUA,91,Papua,current_38,91,True,True,Current 38-province administrative geography.
+ID-93,Papua Selatan,PAPUA SELATAN,93,Papua,current_38,93,True,True,Current 38-province administrative geography.
+ID-94,Papua Tengah,PAPUA TENGAH,94,Papua,current_38,94,True,True,Current 38-province administrative geography.
+ID-95,Papua Pegunungan,PAPUA PEGUNUNGAN,95,Papua,current_38,95,True,True,Current 38-province administrative geography.
+PAPUA_HIST,Papua (historical 2021–2023),PAPUA,91-HIST,Papua,legacy_34,PAPUA_HIST,True,False,Historical 34-province unit; 2021–2023 Papua is the pre-split aggregate. Build a dissolved map polygon from Papua + four new DOB polygons.

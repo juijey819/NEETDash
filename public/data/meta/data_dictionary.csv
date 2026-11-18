@@ -1,0 +1,68 @@
+sheet,field,definition,unit,grain,source_status,caveat
+P1_National_Trend,year,Reference year of BPS NEET estimate,year,annual,OFFICIAL_BPS,
+P1_National_Trend,neet_rate_pct,"Published percentage of youth aged 15–24 who are not in education, employment or training",percent,national-year,OFFICIAL_BPS,
+P1_National_Trend,annual_change_pp,Year-on-year change in NEET rate,percentage points,national-year,OFFICIAL_BPS,
+P1_National_Trend,change_vs_2021_pp,Change from 2021 NEET rate,percentage points,national-year,OFFICIAL_BPS,
+P1_Provincial_NEET,province_key,Stable application key for province or historical geography,text,province-year,OFFICIAL_BPS,2021–2023 contains 34 historical provinces; 2024–2025 contains 38 current provinces.
+P1_Provincial_NEET,province_name,Standardized province display name,text,province-year,OFFICIAL_BPS,2021–2023 contains 34 historical provinces; 2024–2025 contains 38 current provinces.
+P1_Provincial_NEET,province_code,Current administrative province code; historical Papua uses a separate key,text,province-year,OFFICIAL_BPS,2021–2023 contains 34 historical provinces; 2024–2025 contains 38 current provinces.
+P1_Provincial_NEET,neet_rate_pct,Published BPS NEET rate for youth aged 15–24,percent,province-year,OFFICIAL_BPS,2021–2023 contains 34 historical provinces; 2024–2025 contains 38 current provinces.
+P1_Provincial_NEET,geography_version,Administrative geography vintage used for the reference year,category,province-year,OFFICIAL_BPS,2021–2023 contains 34 historical provinces; 2024–2025 contains 38 current provinces.
+P1_Provincial_NEET,map_feature_key,Join key to the matching GeoJSON feature or dissolved historical Papua polygon,text,province-year,OFFICIAL_BPS,2021–2023 contains 34 historical provinces; 2024–2025 contains 38 current provinces.
+P1_Gender_Trend,year,Reference year of the BPS estimate,year,national-year-subgroup,OFFICIAL_BPS,
+P1_Gender_Trend,subgroup,"Gender, residence, or education category",category,national-year-subgroup,OFFICIAL_BPS,
+P1_Gender_Trend,neet_rate_pct,Published NEET rate for youth aged 15–24 within subgroup,percent,national-year-subgroup,OFFICIAL_BPS,Subgroup rates are not additive; do not sum or average without denominators.
+P1_Residence_Trend,year,Reference year of the BPS estimate,year,national-year-subgroup,OFFICIAL_BPS,
+P1_Residence_Trend,subgroup,"Gender, residence, or education category",category,national-year-subgroup,OFFICIAL_BPS,
+P1_Residence_Trend,neet_rate_pct,Published NEET rate for youth aged 15–24 within subgroup,percent,national-year-subgroup,OFFICIAL_BPS,Subgroup rates are not additive; do not sum or average without denominators.
+P1_Education_Trend,year,Reference year of the BPS estimate,year,national-year-subgroup,OFFICIAL_BPS,
+P1_Education_Trend,subgroup,"Gender, residence, or education category",category,national-year-subgroup,OFFICIAL_BPS,
+P1_Education_Trend,neet_rate_pct,Published NEET rate for youth aged 15–24 within subgroup,percent,national-year-subgroup,OFFICIAL_BPS,Subgroup rates are not additive; do not sum or average without denominators.
+P1_KPI_By_Year,national_neet_rate_pct,National NEET rate,percent,national-year,OFFICIAL_BPS,Population/count are blank for 2021–2022 because no validated count extraction is in this package.
+P1_KPI_By_Year,jawa_tengah_neet_rate_pct,Jawa Tengah NEET rate,percent,national-year,OFFICIAL_BPS,Population/count are blank for 2021–2022 because no validated count extraction is in this package.
+P1_KPI_By_Year,jawa_tengah_gap_vs_national_pp,Jawa Tengah minus national NEET rate,percentage points,national-year,OFFICIAL_BPS,Population/count are blank for 2021–2022 because no validated count extraction is in this package.
+P1_KPI_By_Year,female_neet_rate_pct,Female NEET rate,percent,national-year,OFFICIAL_BPS,Population/count are blank for 2021–2022 because no validated count extraction is in this package.
+P1_KPI_By_Year,male_neet_rate_pct,Male NEET rate,percent,national-year,OFFICIAL_BPS,Population/count are blank for 2021–2022 because no validated count extraction is in this package.
+P1_KPI_By_Year,rural_neet_rate_pct,Rural NEET rate,percent,national-year,OFFICIAL_BPS,Population/count are blank for 2021–2022 because no validated count extraction is in this package.
+P1_KPI_By_Year,urban_neet_rate_pct,Urban NEET rate,percent,national-year,OFFICIAL_BPS,Population/count are blank for 2021–2022 because no validated count extraction is in this package.
+P1_KPI_By_Year,youth_population_15_24,BPS youth population aged 15–24; available 2023–2025 only,persons,national-year,OFFICIAL_BPS,Population/count are blank for 2021–2022 because no validated count extraction is in this package.
+P1_KPI_By_Year,neet_count,BPS NEET population count; available 2023–2025 only,persons,national-year,OFFICIAL_BPS,Population/count are blank for 2021–2022 because no validated count extraction is in this package.
+P2_Province_Year,youth_population_15_24,"Youth population aged 15–24; official nationally 2023–2025, synthetic in 2021–2022 and at province level",persons,province-year or national-year,HYBRID,Do not present provincial population allocations as official.
+P2_Province_Year,neet_count,"NEET population count; official nationally 2023–2025, synthetic in 2021–2022 and at province level",persons,province-year or national-year,HYBRID,Provincial counts are synthetic allocations.
+P2_Province_Year,neet_rate_pct,BPS-published NEET rate by province and year,percent,province-year or national-year,OFFICIAL_BPS,This is the official BPS NEET rate; all other diagnostic attributes may be synthetic.
+P2_Province_Year,employed_count,Synthetic count of employed youth,persons,province-year or national-year,SYNTHETIC,Illustrative only.
+P2_Province_Year,youth_employment_rate_pct,Synthetic youth employment-to-population rate,percent,province-year or national-year,SYNTHETIC,Illustrative only; replace with youth-specific Sakernas tabulation.
+P2_Province_Year,education_training_nonemployed_count,Synthetic count of youth not employed but in education/training; residual in exclusive status partition,persons,province-year or national-year,SYNTHETIC,This is not the total number participating in education/training if employed students are counted.
+P2_Province_Year,education_training_nonemployed_share_pct,Share of youth not employed but in education/training,percent,province-year or national-year,SYNTHETIC,"Corrected 2025 default is 34.7%, not 35.7%, so three-way Sankey flows reconcile."
+P2_Province_Year,inactive_neet_count,Synthetic inactive component of NEET,persons,province-year or national-year,SYNTHETIC,Not an observed BPS split.
+P2_Province_Year,neet_unemployed_count,Synthetic unemployed component of NEET,persons,province-year or national-year,SYNTHETIC,Not an observed BPS split.
+P2_Province_Year,inactive_neet_share_pct,Inactive NEET share of total NEET,percent,province-year or national-year,SYNTHETIC,73.8% is a prototype assumption for 2025.
+P2_NEET_Decomposition,source_node,Origin node in the Sankey,category,year-geography-flow,HYBRID,First-stage categories are exclusive; NEET then splits into unemployed and inactive.
+P2_NEET_Decomposition,target_node,Destination node in the Sankey,category,year-geography-flow,HYBRID,First-stage categories are exclusive; NEET then splits into unemployed and inactive.
+P2_NEET_Decomposition,value_persons,Count represented by a flow,persons,year-geography-flow,HYBRID,First-stage categories are exclusive; NEET then splits into unemployed and inactive.
+P2_NEET_Decomposition,share_of_youth_pct,Flow count as share of youth population,percent,year-geography-flow,HYBRID,First-stage categories are exclusive; NEET then splits into unemployed and inactive.
+P2_Exclusion_Model,factor,Exclusion characteristic shown in forest plot,category,national-2025-factor,SYNTHETIC_PLACEHOLDER,Not estimated from Sakernas microdata; do not interpret causally.
+P2_Exclusion_Model,adjusted_odds_ratio,Synthetic adjusted odds ratio placeholder,ratio,national-2025-factor,SYNTHETIC_PLACEHOLDER,Not estimated from Sakernas microdata; do not interpret causally.
+P2_Exclusion_Model,ci_lower_95,Synthetic lower 95% confidence limit,ratio,national-2025-factor,SYNTHETIC_PLACEHOLDER,Not estimated from Sakernas microdata; do not interpret causally.
+P2_Exclusion_Model,ci_upper_95,Synthetic upper 95% confidence limit,ratio,national-2025-factor,SYNTHETIC_PLACEHOLDER,Not estimated from Sakernas microdata; do not interpret causally.
+P2_Exclusion_Model,reference_group,Comparison category for the factor,category,national-2025-factor,SYNTHETIC_PLACEHOLDER,Not estimated from Sakernas microdata; do not interpret causally.
+P2_NEET_Reasons,gender,Gender group of inactive NEET,category,year-geography-gender-reason,SYNTHETIC,Reason distributions are simulated and not official BPS/Sakernas tabulations.
+P2_NEET_Reasons,reason_group,Illustrative reason category,category,year-geography-gender-reason,SYNTHETIC,Reason distributions are simulated and not official BPS/Sakernas tabulations.
+P2_NEET_Reasons,share_within_gender_inactive_neet_pct,Share within gender-specific inactive NEET,percent,year-geography-gender-reason,SYNTHETIC,Reason distributions are simulated and not official BPS/Sakernas tabulations.
+P2_NEET_Reasons,reason_count,Synthetic count associated with reason category,persons,year-geography-gender-reason,SYNTHETIC,Reason distributions are simulated and not official BPS/Sakernas tabulations.
+P2_Labour_Sector,sector,Employment sector category,category,year-geography-sector,SYNTHETIC,Illustrative sector composition; not official youth-specific tabulation.
+P2_Labour_Sector,employed_youth_count,Synthetic employed youth count in sector,persons,year-geography-sector,SYNTHETIC,Illustrative sector composition; not official youth-specific tabulation.
+P2_Labour_Sector,share_of_employed_youth_pct,Sector share among employed youth,percent,year-geography-sector,SYNTHETIC,Illustrative sector composition; not official youth-specific tabulation.
+P2_Labour_Quality,informal_share_pct,Synthetic share of employed youth in informal work,percent,year-geography,SYNTHETIC,0–34 hours is not equivalent to underemployment; earnings proxy is not a pooled microdata median.
+P2_Labour_Quality,short_hours_share_pct,Synthetic share working 0–34 hours/week,percent,year-geography,SYNTHETIC,0–34 hours is not equivalent to underemployment; earnings proxy is not a pooled microdata median.
+P2_Labour_Quality,median_monthly_earnings_idr,Synthetic nominal monthly earnings proxy for wage employees,IDR/month,year-geography,SYNTHETIC,0–34 hours is not equivalent to underemployment; earnings proxy is not a pooled microdata median.
+P2_Labour_Quality,youth_employment_rate_pct,Synthetic youth employment-to-population rate,percent,year-geography,SYNTHETIC,0–34 hours is not equivalent to underemployment; earnings proxy is not a pooled microdata median.
+P2_Policy_Actions,action_title,Policy intervention headline,text,action-card,POLICY_SYNTHESIS,
+P2_Policy_Actions,action_description,Short action summary,text,action-card,POLICY_SYNTHESIS,
+P2_Policy_Actions,evidence_signal,Evidence signal motivating the action,text,action-card,POLICY_SYNTHESIS,
+P2_Policy_Actions,recommended_levers,Illustrative policy levers,text,action-card,POLICY_SYNTHESIS,
+P2_Policy_Scenarios,coverage_pct_default,Default share of target NEET pool reached,percent,year-geography-scenario,SYNTHETIC_SCENARIO,Arithmetic what-if only; not an impact evaluation or forecast.
+P2_Policy_Scenarios,assumed_success_pct_default,Assumed share of covered youth transitioning out of NEET,percent,year-geography-scenario,SYNTHETIC_SCENARIO,Arithmetic what-if only; not an impact evaluation or forecast.
+P2_Policy_Scenarios,illustrative_transitions_count,Baseline NEET × coverage × success,persons,year-geography-scenario,SYNTHETIC_SCENARIO,Arithmetic what-if only; not an impact evaluation or forecast.
+P2_Policy_Scenarios,simulated_neet_rate_after_pct,Illustrative NEET rate after arithmetic transitions,percent,year-geography-scenario,SYNTHETIC_SCENARIO,Arithmetic what-if only; not an impact evaluation or forecast.
+P2_Policy_Scenarios,reduction_pp,Illustrative reduction in NEET rate,percentage points,year-geography-scenario,SYNTHETIC_SCENARIO,Arithmetic what-if only; not an impact evaluation or forecast.
